@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/705438527d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
+      media="all"
+      rel="stylesheet"
+      id="font-awesome-5-kit-css"
+    />
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
+      media="all"
+      rel="stylesheet"
+      id="font-awesome-5-kit-css"
+    />
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
+      media="all"
+      rel="stylesheet"
+      id="font-awesome-5-kit-css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+    <title>Find Your Way</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/705438527d.js" crossorigin="anonymous"></script>
-  <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css" />
-  <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css" />
-  <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/app.js"></script>
-  <title>Find Your Way</title>
-</head>
+  <body>
+    <div class="origin-container">
+      <form class="origin-form">
+        <input placeholder="Find a starting location" type="text" />
+      </form>
+      <ul class="origins"></ul>
+    </div>
 
-<body>
-  <div class="origin-container">
-    <form class="origin-form">
-      <input placeholder="Find a starting location" type="text" />
-    </form>
-    <ul class="origins"></ul>
-  </div>
+    <div class="destination-container">
+      <form class="destination-form">
+        <input placeholder="Choose your Destination" type="text" />
+      </form>
+      <ul class="destinations"></ul>
+    </div>
 
-  <div class="destination-container">
-    <form class="destination-form">
-      <input placeholder="Choose your Destination" type="text" />
-    </form>
-    <ul class="destinations"></ul>
-  </div>
-
-  <div class="button-container">
-    <button class="plan-trip">Plan My Trip</button>
-  </div>
-  <div class="bus-container"></div>
-</body>
-
+    <div class="button-container">
+      <button class="plan-trip">Plan My Trip</button>
+    </div>
+    <div class="bus-container"></div>
+  </body>
 </html>
