@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/WillyGilbert/Budget-Calculator/master/favicon.png" width="90" height="90">
+<img src="https://raw.githubusercontent.com/WillyGilbert/Trip-Planner/master/src/image/favicon.png" width="90" height="90">
 
 # Trip Planner
 
